@@ -1,4 +1,3 @@
 # test-github-jira
 
-test new
-state and env
+test no breakpoint
