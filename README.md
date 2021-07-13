@@ -1,4 +1,3 @@
 # test-github-jira
 
-test thursday
-stg again
+trigger data in splunk
