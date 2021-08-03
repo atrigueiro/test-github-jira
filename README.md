@@ -1,5 +1,3 @@
 # test-github-jira
 
-testing cicd ts
-debug 1
-jdvojnafaw
+wheres my cd
