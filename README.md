@@ -1,4 +1,4 @@
 # test-github-jira
 
 testing cicd ts
-debug 1
+debug 2
