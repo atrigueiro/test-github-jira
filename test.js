@@ -1,7 +1,10 @@
-// Server
-var http = require('http');
+var app = require('express')();
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(req.url);
-}).listen(1337);
+app.get('/user/:id', function(req, res) {
+  if (!isValidUserId(req.params.id))
+    // BAD: a request parameter is incorporated without validation into the response
+    res.send("Unknown user: " + req.params.id);
+  else
+    // TODO: do something exciting
+    ;
+});
