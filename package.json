@@ -1,0 +1,19 @@
+{
+  "name": "test-github-jira",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "test.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atrigueiro/test-github-jira.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atrigueiro/test-github-jira/issues"
+  },
+  "homepage": "https://github.com/atrigueiro/test-github-jira#readme"
+}
