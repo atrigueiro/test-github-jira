@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/atrigueiro/test-github-jira/issues"
   },
-  "homepage": "https://github.com/atrigueiro/test-github-jira#readme"
+  "homepage": "https://github.com/atrigueiro/test-github-jira#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
