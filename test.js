@@ -1,7 +1,10 @@
-// Server
-var http = require('http');
+const express = require('express');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(req.url);
-}).listen(1337);
+const router = express.Router();
+
+router.get('/verify', async (req, res) => {
+	const token = requ.quer.t;
+	const user = await User.findOne({ token });
+	if (!user) res.redirect('/admin');
+	res.redirect(`admin/sp/${token}`);
+});
