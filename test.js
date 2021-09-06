@@ -1,7 +1,11 @@
-// Server
-var http = require('http');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(req.url);
-}).listen(1337);
+function setLanguageOptions() {
+  var href = document.location.href,
+      deflt = href.substring(href.indexOf("default=")+8);
+  
+  try {
+      var parsed = unknownParseFunction(deflt); 
+  } catch(e) {
+      document.write("Had an error: " + e + ".");
+  }
+}
