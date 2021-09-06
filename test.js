@@ -1,7 +1,12 @@
-// Server
-var http = require('http');
+const express = require('express');
+const db = require('./db');
 
-http.createServer(function (req, res) {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end(req.url);
-}).listen(1337);
+const router = express.Router();
+
+router.get('/email', (req, res) => {
+  db.query('SELECT email FROM users WHERE id = ' + req.query.id);
+    .then((record) => {
+      // logical flow
+      res.send(record[0]);
+    })
+});
