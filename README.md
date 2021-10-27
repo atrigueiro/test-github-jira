@@ -1,5 +1,3 @@
 # test-github-jira
 
-testing stg
-fasfsadf
-cascds
+testing prod new
