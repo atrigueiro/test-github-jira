@@ -1,3 +1,4 @@
 # test-github-jira
 
-testing user scopes
+testing pr reviews
+davsadvas
