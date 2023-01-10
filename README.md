@@ -1,3 +1,3 @@
 # test-github-jira
 
-testing staging app sev 0
+testing pdd app sev 0
