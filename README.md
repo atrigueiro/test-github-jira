@@ -1,3 +1,3 @@
-test comments
-no issue key in branch name just pr title
-1212
+test comment
+one jira issue key
+branck and pr
