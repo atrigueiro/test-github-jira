@@ -9,7 +9,6 @@ on: [push, workflow_dispatch]
 jobs:
   # This workflow contains a single job called "build"
   deploy-to-prod:
-    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-22.04
     name: Deploy to Production
     steps: 
