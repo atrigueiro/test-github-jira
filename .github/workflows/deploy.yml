@@ -10,7 +10,7 @@ jobs:
   # This workflow contains a single job called "build"
   deploy-to-prod:
     if: github.ref == 'refs/heads/main'
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-22.04
     name: Deploy to Production
     steps: 
       - uses: chrnorm/deployment-action@releases/v1
