@@ -7,7 +7,7 @@
     "test": "npm test"
   },
   "dependencies": {
-    "atlassian-jwt": "^1.6.0",
+    "atlassian-jwt": "^2.0.3",
     "aws-sdk": "^2.238.1",
     "axios": "^0.15.0",
     "bunyan": "^1.8.15",
