@@ -1,6 +1,3 @@
 testing
 
-stg
-dwdqd
-ccqawc
-cdc
+stg2
