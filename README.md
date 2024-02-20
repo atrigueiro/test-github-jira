@@ -1,2 +1,3 @@
 testing
 entities
+all
