@@ -1,4 +1,2 @@
 testing
-entities
-ff off
-cdacawce
+all
