@@ -1,5 +1,3 @@
 testing
 all
-13
-new
-dd
+friday
