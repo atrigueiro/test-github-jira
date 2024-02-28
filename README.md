@@ -1,4 +1,4 @@
 testing
 all
-wed
-
+friday
+at-15
