@@ -1,4 +1,3 @@
 testing
 all
-local
-new jira
+demo friday
