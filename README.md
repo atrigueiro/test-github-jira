@@ -1,3 +1,4 @@
 testing
 all
-demo
+local
+new jira
