@@ -1,4 +1,4 @@
 testing
 all
 local
-new jira
+new stg
