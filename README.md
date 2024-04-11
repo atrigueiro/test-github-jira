@@ -1,4 +1,2 @@
 testing
-all
-local
-new jira
+test
