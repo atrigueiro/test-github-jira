@@ -1,5 +1,4 @@
 testing
 all
 e2e
-friday
-sfvsfvefverwv
+monday
