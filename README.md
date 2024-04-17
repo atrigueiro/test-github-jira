@@ -1,4 +1,4 @@
 testing
 all
 e2e
-weds
+weds evening
