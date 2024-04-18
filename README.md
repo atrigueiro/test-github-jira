@@ -1,4 +1,5 @@
 testing
 all
 e2e
-weds evening
+thursday
+arvo 1
