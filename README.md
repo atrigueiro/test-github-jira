@@ -2,4 +2,4 @@ testing
 all
 e2e
 thursday
-arvo 1
+arvo 2
