@@ -1,5 +1,5 @@
 testing
 all
 e2e
-friday
-morning
+thursday
+arvo 2
