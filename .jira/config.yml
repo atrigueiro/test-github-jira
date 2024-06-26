@@ -1,0 +1,11 @@
+deployments:
+  environmentMapping:
+    development:
+      - "dev"
+      - "DEV"
+    testing:
+      - "qa"
+      - "QA"
+    staging:
+    production:
+      - "QSTR-NA"
