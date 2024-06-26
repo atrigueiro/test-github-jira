@@ -6,6 +6,6 @@ deployments:
     testing:
       - "qa"
       - "QA"
-    staging:
+    staging: 
     production:
       - "QSTR-NA"
