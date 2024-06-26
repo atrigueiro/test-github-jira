@@ -8,7 +8,7 @@ on: [push]
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  deploy-to- :
+  deploy-to-prod:
     runs-on: ubuntu-22.04
     name: Deploy to Production
     steps: 
@@ -18,7 +18,7 @@ jobs:
         with:
           token: "${{ github.token }}"
           target_url: http://my-cool-app.com
-          environment: random-env-prod
+          environment: QSTR-NA
       - name: Running production deployment
         run: |
           echo Deploying to production...
