@@ -3,7 +3,15 @@
 name: My Deployment flow
 
 # Controls when the action will run. 
-on: [push]
+on:
+  push: 
+    branches: [ main ]
+# Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Allows a deployment to start from a release
+  release:
+    types: [published]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
